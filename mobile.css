@@ -1,0 +1,153 @@
+/* Media query pour les écrans de mobile (600px et moins) */
+@media (max-width: 600px) {
+
+
+
+
+
+
+
+    #media {
+        display: none !important;
+    }
+
+    #image_banniere {
+
+
+        scale: 2;
+        margin-top: 20px;
+
+
+
+    }
+
+
+    #media {
+        display: none !important;
+    }
+
+
+    .main_container_car {
+
+        padding: 0px;
+        width: 100%;
+        scale: 1.6;
+    }
+
+
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+
+        font-size: 18px !important;
+    }
+
+    h3 {
+        font-size: 28 !important;
+    }
+
+
+    #car-video i {
+        color: grey;
+
+    }
+
+    .main_container_car {
+
+
+        width: 100%;
+        padding: 20px !important;
+        margin: auto;
+
+
+    }
+
+    .carousel {
+
+
+        width: 100%;
+
+    }
+
+
+
+    .div_persona {
+
+        scale: 0.7;
+    }
+
+    #equipe p {
+
+        font-size: 18px !important;
+        margin: 0;
+    }
+
+
+    .container_perso {
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+
+    }
+
+    .p_membre {
+
+        font-size: 30px !important;
+        height: auto !important;
+
+    }
+
+    .separateur_carousel {
+        display: none !important;
+    }
+
+    .separateur_equipe {
+        display: none !important;
+    }
+
+
+
+    h3 {
+
+        padding: 0;
+        margin: 0;
+    }
+
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_logo_form,
+    #contact-form {
+        width: 100% !important;
+        /* Prendre 75% de la largeur */
+        margin: 10px 0;
+        /* Espacement vertical */
+    }
+
+    .logo_form {
+
+        width: 100% !important;
+    }
+
+    .div_logo_form {
+        margin-bottom: 20px;
+        /* Augmentez l'espace entre le logo et le formulaire si nécessaire */
+    }
+
+    #contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        width: 80% !important;
+    }
+
+}

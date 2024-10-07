@@ -1,0 +1,56 @@
+@media (min-width: 600px) and (max-width: 1024px) {
+    #media {
+        display: none !important;
+    }
+
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_logo_form,
+    #contact-form {
+        width: 75%;
+        /* Prendre 75% de la largeur */
+        margin: 10px 0;
+        /* Espacement vertical */
+    }
+
+    .logo_form {
+
+        width: 200%;
+    }
+
+    .div_logo_form {
+        margin-bottom: 20px;
+        /* Augmentez l'espace entre le logo et le formulaire si nécessaire */
+    }
+
+    #contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80% !important;
+    }
+
+    .logo_form {
+
+        max-width: 100%;
+
+        padding: 30px;
+
+    }
+
+
+    .separateur_tablette {
+        display: none !important;
+    }
+
+
+    sep_tablette {
+
+        display: none !important;
+    }
+}

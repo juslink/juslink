@@ -1,0 +1,556 @@
+body {
+    padding: 0;
+    background-size: cover;
+    width: 100%;
+    background-color: #022602;
+
+
+}
+
+
+.navbar-brand {
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    /* Ajoutez ici vos styles */
+
+
+
+
+    #car-video {
+        display: none;
+    }
+
+    .catch_phrase_equipe {
+
+
+        max-width: 50% !important;
+
+        margin-bottom: 50px !important;
+        font-size: 20px;
+
+
+    }
+
+
+    .container_perso p {
+
+        margin-top: 10px !important;
+
+    }
+
+    .separateur {
+
+        display: none;
+    }
+
+    .separateur-gameplay {
+
+        height: 0px;
+        border-top: solid 3px bisque;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.firefly {
+    position: absolute;
+    background-color: rgba(0, 255, 0, 1);
+    /* Couleur verte pleine */
+    border-radius: 50%;
+    opacity: 0;
+    /* Démarre complètement transparent */
+    animation: glow 1.5s infinite alternate;
+    /* Animation de scintillement */
+}
+
+@keyframes glow {
+    0% {
+        opacity: 1;
+        /* Démarre à 1 (pleinement visible) */
+        transform: scale(0.1);
+        /* Taille initiale */
+    }
+
+    100% {
+        opacity: 0%;
+        /* Fin de l'animation, totalement transparent */
+        transform: scale(0.4);
+        /* Augmente la taille à la fin */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+img {
+
+    transition: transform 0.8s ease;
+}
+
+
+img:hover {
+
+    transform: scale(1.07);
+}
+
+.separateur {
+
+    height: 0px;
+    border-top: solid 3px bisque;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.separateur_equipe {
+
+    height: 0px;
+    border-top: solid 3px bisque;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+
+
+
+
+.navbar {
+    background-color: #021001;
+    color: bisque;
+    border-bottom: 2px solid;
+
+
+}
+
+
+
+.navbar-nav .nav-item a {
+    min-width: 90px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-item a:hover {
+    transform: scale(1.1);
+    color: #000000;
+    /* Change la couleur si tu veux un effet visuel supplémentaire */
+}
+
+.navbar-toggler {
+    text-decoration: none;
+    border: none;
+    color: bisque;
+}
+
+.navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='bisque' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+
+
+
+header {
+    position: sticky !important;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+
+
+}
+
+#presentation {
+    background-color: #000000;
+    padding-bottom: 50px !important;
+
+
+}
+
+#presentation h2 {
+    font-size: 26px;
+
+
+}
+
+
+
+.carousel {
+
+    border: 3px solid bisque;
+    border-radius: 5px;
+}
+
+
+#footer {
+
+
+
+    bottom: 0;
+    width: 100%;
+    color: bisque;
+    border-top: 1px solid bisque;
+    background-color: #021001 !important;
+
+
+
+
+}
+
+
+#luciole {
+
+    border-bottom: 3px solid bisque;
+}
+
+#fif {
+    width: max-content;
+    height: 40vh;
+    justify-content: center;
+
+}
+
+#image_banniere:hover {
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+
+    /* La transition sur le hover */
+    transform: scale(1.1);
+
+
+}
+
+#image_banniere {
+
+    max-width: 30%;
+    /* Applique la même transition que celle du :hover */
+    transition: all 0.5s ease-in-out;
+    min-width: 25% !important;
+
+}
+
+#equipe {
+    background-color: #022602;
+    margin-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+#titre_equipe {
+
+    height: 10px !important;
+}
+
+#equipe p {
+
+    max-width: 80%;
+    margin: 0;
+    color: bisque;
+}
+
+.persona {
+
+    max-height: 200px;
+}
+
+.container_perso p {
+
+    min-height: 240px;
+}
+
+#titre_équipe {
+    min-height: 20vh;
+    font-size: xx-large;
+}
+
+
+#media {
+
+    width: 100%;
+
+    min-height: 600px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#media h2 {
+    font-size: xx-large;
+}
+
+#media p {
+
+    font-size: large;
+}
+
+
+.carousel-item video {
+    width: 100%;
+    height: auto;
+}
+
+.section-container {
+    margin-top: 50px;
+}
+
+
+.game-container {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container-btn-vid {
+    position: relative;
+    /* Position relative pour le conteneur */
+
+    /* Largeur de la div */
+
+    /* Hauteur de la div */
+    border: 2px solid #ccc;
+    /* Bordure pour visualiser la div */
+    margin: 50px auto;
+    /* Centrer la div sur la page */
+}
+
+#play-button {
+
+    background-color: rgba(00, 0, 0, 0);
+    position: absolute;
+    /* Position absolue pour le bouton */
+    top: 50% !important;
+    /* Positionner au milieu verticalement */
+    margin: auto;
+    /* Positionner au milieu horizontalement */
+
+    /* Ajustement pour centrer parfaitement */
+    display: flex;
+    /* Pour centrer le contenu du bouton */
+    align-items: center;
+
+
+
+
+
+
+}
+
+
+#play-button2 {
+    padding: 10px 20px;
+    background-color: bisque;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+#play-button:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+#play-button2:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+#text_frame {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#jeu {
+
+    border: solid 3px;
+    border-color: #ffe4c4;
+    border-radius: 5px;
+    display: none;
+}
+
+
+h1 {
+    font-size: 36;
+}
+
+h2 {
+
+    font: size 32px !important;
+    ;
+}
+
+
+
+p {
+    color: bisque;
+}
+
+h1,
+h2,
+h3 {
+
+    font-family: Verdana;
+    color: bisque;
+}
+
+
+
+
+#contact {
+
+
+
+    width: 100%;
+}
+
+.form-control {
+    border: 2px solid bisque;
+}
+
+#bouton_envoie {
+
+    background-color: bisque;
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+}
+
+#bouton_envoie:hover {
+
+    transform: scale(1.1);
+
+
+}
+
+li>a {
+    color: grey;
+    margin: 15px;
+    font-weight: bold;
+    background-color: bisque;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+.logo_form {
+
+    max-width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+
+}
+
+.titre_form {
+    font-size: x-large;
+}
+
+
+
+
+
+a {
+    color: bisque;
+}
+
+.p_membre {
+    font-size: larger;
+    font-weight: bolder;
+    color: gray;
+    width: 100%;
+}
+
+h3 {
+    font-size: larger;
+    color: bisque;
+}
+
+
+
+
+
+
+.div_persona {
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    border-radius: 50%;
+
+}
+
+.bg-body-secondary {
+
+    background-color: #021001 !important;
+    border-radius: 10px;
+
+}
+
+
+form label {
+
+    color: bisque;
+}
+
+#titre_équipe {
+
+    height: 10% !important;
+}
+
+.div_titre_equipe {
+
+    padding-bottom: 40px !important;
+    margin-bottom: 30px;
+}
