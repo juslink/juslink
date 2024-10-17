@@ -3,8 +3,21 @@ body {
     background-size: cover;
     width: 100%;
     background-color: #022602;
+    margin: 0;
 
 
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+html {
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -466,6 +479,7 @@ h3 {
 #bouton_envoie:hover {
 
     transform: scale(1.1);
+    color: #000000;
 
 
 }
